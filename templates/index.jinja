@@ -15,6 +15,10 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<link href="static/css/style.css" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>
 
@@ -52,10 +56,11 @@
 										<label for="text-input" class="mb-2">
 											Copy and paste your text here
 										</label>
-										<textarea class="form-control" id="text-input" name="text-input" form="text"></textarea>
+										<textarea class="form-control" id="text-input" name="text-input" form="text" required></textarea>
 									</div>
+									<input type="submit" class="btn btn-success btn-lg btn-block mt-4" form="text" value="Classify">
 								</form>
-								<input type="submit" class="btn btn-success btn-lg btn-block mt-4" form="text" value="Classify">
+
 							</div>
 							{# FILE INPUT #}
 							<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
@@ -65,20 +70,20 @@
 										<label for="file-input" class="mb-2">
 											Upload a <strong>.txt</strong> file
 										</label>
-										<input type="file" class="form-control" id="file-input" name="file-input" accept=".txt">
+										<input type="file" class="form-control" id="file-input" name="file-input" accept=".txt" required>
 									</div>
+									<input type="submit" class="btn btn-success btn-lg btn-block mt-4" form="file" value="Classify">
 								</form>
-								<input type="submit" class="btn btn-success btn-lg btn-block mt-4" form="file" value="Classify">
 							</div>
 						</div>
 					</div>
 				</div>
-				{% if result %}
+				{% if prediction %}
 				<div class="my-5"></div>
-				<div class="card card-block">
+				<div class="card card-block animate__animated animate__zoomIn">
 					<div class="card-body mx-4 my-2">
 						<h4>
-							Your text is classified as <i>tech</i>
+							Your text is classified as <i>{{ prediction }}</i>
 						</h4>
 					</div>
 				</div>
