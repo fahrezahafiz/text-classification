@@ -1,7 +1,7 @@
 # News Text Classification Using Random Forest Algorithm
 
 ## Developer
-| Name                                   | Studend ID     |
+| Name                                   | Student ID     |
 | -------------------------------------- |:--------------:|
 | Rizha Al-Fajri                         | G64170003      |
 | Fahreza Ikhsan Hafiz                   | G64170077      |
