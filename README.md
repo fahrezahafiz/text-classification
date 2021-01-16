@@ -14,3 +14,8 @@ This project developed web-based news text classification using Random Forest mo
 The developed web could classify english news text to one of five categories: business, entertainment, politics, sport, or tech.
 
 Go ahead and try it on https://news-txt-classifier.herokuapp.com
+
+## Screenshot
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png")
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-2.png")
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-3.png")
