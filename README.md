@@ -19,8 +19,19 @@ Go ahead and try it on https://news-txt-classifier.herokuapp.com
 Please prepare english news text that you want to classify. You can copy it from it source or prepare it as .txt file. To classify it, paste it into the provided column or input the .txt file. The result will be appear in a few moments. 
 
 ## Web Screenshot
-![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png "Demo 1")
-*This is the caption*
 
+| ![Demo-1.jpg](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png "Demo 1") | 
+|:--:| 
+| *Interface for Classify via Manual Input* |
+
+| ![Demo-2.jpg](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-2.png "Demo 2") | 
+|:--:| 
+| *Interface for Classify via File Input* |
+
+| ![Demo-3.jpg](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-3.png "Demo 3") | 
+|:--:| 
+| *Interface for Classification Result* |
+
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png "Demo 1")
 ![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-2.png "Demo 2")
 ![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-3.png "Demo 3")
