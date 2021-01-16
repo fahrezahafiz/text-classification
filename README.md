@@ -16,6 +16,6 @@ The developed web could classify english news text to one of five categories: bu
 Go ahead and try it on https://news-txt-classifier.herokuapp.com
 
 ## Screenshot
-![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png")
-![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-2.png")
-![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-3.png")
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png "Demo 1")
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-2.png "Demo 2")
+![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-3.png "Demo 3")
