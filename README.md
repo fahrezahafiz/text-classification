@@ -20,6 +20,7 @@ Please prepare english news text that you want to classify. You can copy it from
 
 ## Web Screenshot
 ![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-1.png "Demo 1")
-#This is the caption
+*This is the caption*
+
 ![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-2.png "Demo 2")
 ![alt text](https://github.com/fahrezahafiz/text-classification/blob/main/Demo-3.png "Demo 3")
