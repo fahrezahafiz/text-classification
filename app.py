@@ -23,8 +23,6 @@ def index():
             doc = file.read().decode('utf-8')
 
         if doc is not None:
-            vectorizer = None
-            rfc = None
             zipped_vec = bz2.BZ2File('vectorizer.pickle')
             vectorizer = pickle.load(zipped_vec)
             print(vectorizer)
@@ -39,8 +37,7 @@ def index():
             pred = rfc.predict(test_feature)[0]
             pred = pred
             print(f"prediction: {pred}")
-        
-        
+
         return render_template('index.jinja', prediction=pred)
 
 
